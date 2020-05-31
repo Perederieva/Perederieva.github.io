@@ -281,10 +281,20 @@
         top: 121px;
     }
 
+    .main_section .slider_images {
+        height: 53.5%;;
+    }
+
+    .main_section .section_slider .container {
+        margin-top: 145px;
+    }
+
     .main_section:before {
         top: 121px;
-        height: 436px;
+        width: 492px;
+        height: 455px;
     }
+
 
     .main_section .main_title h1 {
         font-size: 58px;
@@ -301,14 +311,59 @@
         font-size: 20px;
     }
 
+    .main_section .advantages {
+        background-color: #fff;
+    }
+
     .main_section .advantages_list .advantage_item,
     .main_section .advantages_list .advantage_item:nth-child(2) {
         width: 48%;
+    }
+
+    .header .main_menu .menu_link {
+        font-size: 12px;
     }
 }
 
 
 @media screen and (max-width: 550px) {
+    .main_section .slider_images {
+        height: 40.5%;
+    }
+
+    .main_section .main_title h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .main_section .subtitle_wrap {
+        -webkit-transform: translate(-16px, 0);
+        -moz-transform: translate(-16px, 0);
+        -ms-transform: translate(-16px, 0);
+        -o-transform: translate(-16px, 0);
+        transform: translate(-16px, 0);
+    }
+
+    .main_section .subtitle {
+        width: 245px;
+    }
+
+    .main_section .subtitle h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .main_section .price_field {
+        padding-right: 12px;
+    }
+
+    .main_section .price_field .price {
+        font-size: 35px;
+        line-height: 35px;
+        padding-left: 6px;
+    }
+
+
     .main_section .advantages_list {
         justify-content: center;
     }
@@ -317,10 +372,12 @@
     .main_section .advantages_list .advantage_item:nth-child(2) {
         width: 85%;
     }
+
 }
 
 @media screen and (max-width: 450px) {
     .header .phone_side .phone a {
         font-size: 22px;
     }
+
 }
