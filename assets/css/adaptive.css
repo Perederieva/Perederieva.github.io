@@ -167,7 +167,7 @@
         width: 100%;
         position: absolute;
         left: 0;
-        top: 92px;
+        top: 91px;
         z-index: 10;
         background-color: rgba(0, 0, 0, 0.8);
     }
@@ -207,6 +207,10 @@
 
     .header .phone_side .phone a {
         font-size: 26px;
+    }
+
+    .header .main_menu .menu_link {
+        font-size: 12px;
     }
 
     .main_section:before {
@@ -278,7 +282,7 @@
     }
 
     .main_menu.active {
-        top: 121px;
+        top: 120px;
     }
 
     .main_section .slider_images {
