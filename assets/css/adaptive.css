@@ -1,0 +1,326 @@
+@media screen and (max-width: 1240px) {
+    .main_section .title_field {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .main_section .advantages .container {
+        padding: 20px 15px 17px;
+    }
+
+    .header .main_menu .menu_list {
+        width: 100%;
+    }
+
+    .header .main_menu .menu_list .menu_item:first-child {
+        padding-left: 55px;
+    }
+}
+
+@media screen and  (max-width: 1090px) {
+
+    .header .main_menu .menu_list .menu_item {
+        padding: 0 50px;
+    }
+
+    .header .main_menu .menu_list .menu_item:first-child {
+        padding-left: 30px;
+    }
+
+    .header .main_menu .menu_list .menu_item:last-child {
+        padding-right: 30px;
+    }
+
+    .main_section .advantages_list .advantage_item,
+    .main_section .advantages_list .advantage_item:nth-child(2) {
+        width: 24%;
+    }
+
+    .main_section .advantage_item .title {
+        font-size: 20px;
+    }
+
+    .main_section .advantage_item .icon {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media screen and  (max-width: 945px) {
+    .logo_side {
+        width: 46%;
+    }
+
+    .header .header_top .tagline {
+        width: 57%;
+    }
+
+    .header .phone_side .phone a {
+        font-size: 30px;
+    }
+
+    .header .main_menu .menu_list .menu_item {
+        padding: 0 40px;
+    }
+
+    .main_section:before {
+        top: 86px;
+        height: 487px;
+    }
+
+    .main_section .main_title h1 {
+        font-size: 72px;
+    }
+
+    .main_section .advantages_list .advantage_item,
+    .main_section .advantages_list .advantage_item:nth-child(2) {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+
+    .main_section .advantage_item .title {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and  (max-width: 860px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    .header .header_bottom {
+        padding: 10px 0;
+    }
+
+    .main_menu {
+        position: absolute;
+        top: 92px;
+        left: -999px;
+        width: 100%;
+        transition: all 0.5s;
+    }
+
+    .header .main_menu .menu_list {
+        display: block;
+    }
+
+    .burger_menu {
+        width: 40px;
+        height: 20px;
+        display: block;
+        cursor: pointer;
+        position: relative;
+        order: -1;
+    }
+
+    .menu_btn {
+        width: 40px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.5s ease-in-out .1s;
+    }
+
+    .menu_btn:before,
+    .menu_btn:after {
+        content: "";
+        width: 40px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        transition: all 0.5s ease-in-out .1s;
+    }
+
+    .menu_btn:before {
+        top: -9px;
+    }
+
+    .menu_btn:after {
+        top: 9px;
+    }
+
+    .burger_menu.active .menu_btn {
+        background: rgba(0, 0, 0, 0);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    }
+
+    .burger_menu.active .menu_btn:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .burger_menu.active .menu_btn:after {
+        top: 0;
+        transform: rotate(135deg);
+    }
+
+    .main_menu.active {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 92px;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .header .main_menu .menu_list .menu_item,
+    .header .main_menu .menu_list .menu_item:first-child,
+    .header .main_menu .menu_list .menu_item:last-child {
+        padding: 15px 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .header .main_menu .menu_list .menu_item:not(:last-child):after {
+        display: none;
+    }
+
+
+    .main_section:before {
+        top: 92px;
+        height: 481px;
+    }
+
+    .main_section .section_slider {
+        z-index: 4;
+    }
+
+}
+
+
+@media screen and  (max-width: 786px) {
+    .logo_side {
+        width: 51%;
+    }
+
+    .header .logo {
+        font-size: 28px;
+    }
+
+    .header .phone_side .phone a {
+        font-size: 26px;
+    }
+
+    .main_section:before {
+        height: 470px;
+    }
+
+    .main_section .main_title {
+        padding: 16px 20px 12px 15px;
+    }
+
+    .main_section .main_title h1 {
+        font-size: 64px;
+    }
+
+    .main_section .subtitle h2 {
+        font-size: 34px;
+    }
+}
+
+@media screen and  (max-width: 720px) {
+    .logo_side {
+        width: 53%;
+    }
+
+    .header .logo {
+        margin-right: 20px;
+    }
+
+    .header .header_top .tagline {
+        width: 64%;
+    }
+
+    .header .phone_side .phone a {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and  (max-width: 680px) {
+    .logo_side {
+        width: 48%;
+    }
+
+    .header .logo {
+        margin-right: 0;
+    }
+
+    .header .header_top .tagline {
+        width: 100%;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    .header .header_top .logo_side,
+    .header .header_top .phone_side {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .header .header_top .phone_side {
+        width: 43%;
+        justify-content: flex-end;
+    }
+
+    .phone {
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: right;
+    }
+
+    .main_menu.active {
+        top: 121px;
+    }
+
+    .main_section:before {
+        top: 121px;
+        height: 436px;
+    }
+
+    .main_section .main_title h1 {
+        font-size: 58px;
+    }
+
+    .main_section .price_field .price {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .main_section .button_more .btn {
+        width: 200px;
+        padding: 8px 0;
+        font-size: 20px;
+    }
+
+    .main_section .advantages_list .advantage_item,
+    .main_section .advantages_list .advantage_item:nth-child(2) {
+        width: 48%;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .main_section .advantages_list {
+        justify-content: center;
+    }
+
+    .main_section .advantages_list .advantage_item,
+    .main_section .advantages_list .advantage_item:nth-child(2) {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header .phone_side .phone a {
+        font-size: 22px;
+    }
+}
