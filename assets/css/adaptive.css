@@ -167,7 +167,7 @@
         width: 100%;
         position: absolute;
         left: 0;
-        top: 91px;
+        top: 90px;
         z-index: 10;
         background-color: rgba(0, 0, 0, 0.8);
     }
@@ -192,6 +192,13 @@
     .main_section .section_slider {
         z-index: 4;
     }
+    .main_section .slider_nav .dots {
+        padding-top: 0;
+        height: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
@@ -210,7 +217,7 @@
     }
 
     .header .main_menu .menu_link {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main_section:before {
@@ -282,7 +289,7 @@
     }
 
     .main_menu.active {
-        top: 120px;
+        top: 119px;
     }
 
     .main_section .slider_images {
