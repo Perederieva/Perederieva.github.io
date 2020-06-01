@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="689843f8-4f0c-4b39-9fe8-080af663b577" name="Default Changelist" comment="" />
+    <list default="true" id="689843f8-4f0c-4b39-9fe8-080af663b577" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/adaptive.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/adaptive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="280" column="18" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
+            <state relative-caret-position="183">
+              <caret line="341" lean-forward="true" selection-start-line="341" selection-end-line="341" />
             </state>
           </provider>
         </entry>
@@ -32,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="556">
-              <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+              <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -63,7 +66,6 @@
       <find>slider_nav</find>
       <find>arrow</find>
       <find>.header .phone_side .back_call_btn</find>
-      <find>.main_section:before</find>
       <find>section_slider</find>
       <find>.main_section .subtitle</find>
       <find>slider_item</find>
@@ -75,12 +77,25 @@
       <find>main_menu</find>
       <find>.burger-menu</find>
       <find>dots</find>
+      <find>.main_menu.active</find>
+      <find>.main_menu</find>
+      <find>.main_section .subtitle</find>
+      <find>.main_section:before</find>
+      <find>.header .main_menu .menu_link</find>
     </findStrings>
     <replaceStrings>
       <replace>currentIndex</replace>
       <replace>.burger_menu</replace>
       <replace>-15deg</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Perederieva &lt;alin4ik.ua@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,6 +114,7 @@
     <option name="width" value="1350" />
     <option name="height" value="690" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -169,24 +185,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590912229352</updated>
-      <workItem from="1590912232714" duration="36183000" />
+      <workItem from="1590912232714" duration="42674000" />
     </task>
+    <task id="LOCAL-00001" summary="Add style to adaptive">
+      <created>1590956727565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590956727565</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add style to adaptive">
+      <created>1590956914884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590956914884</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add style to adaptive">
+      <created>1590957149183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590957149183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Complete adaptive style">
+      <created>1590993800305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590993800305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36183000" />
+    <option name="totallyTimeSpent" value="42674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17919463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17919463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -203,6 +248,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add style to adaptive" />
+    <MESSAGE value="Complete adaptive style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete adaptive style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/css/fonts.css">
@@ -235,14 +285,14 @@
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
-          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/adaptive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="280" column="18" selection-start-line="280" selection-start-column="18" selection-end-line="280" selection-end-column="18" />
+        <state relative-caret-position="183">
+          <caret line="341" lean-forward="true" selection-start-line="341" selection-end-line="341" />
         </state>
       </provider>
     </entry>
