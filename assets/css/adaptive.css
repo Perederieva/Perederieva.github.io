@@ -175,7 +175,7 @@
     .header .main_menu .menu_list .menu_item,
     .header .main_menu .menu_list .menu_item:first-child,
     .header .main_menu .menu_list .menu_item:last-child {
-        padding: 15px 20px;
+        padding: 10px 20px;
         border-bottom: 1px solid #fff;
     }
 
@@ -186,12 +186,13 @@
 
     .main_section:before {
         top: 92px;
-        height: 481px;
+        height: 491px;
     }
 
     .main_section .section_slider {
         z-index: 4;
     }
+
     .main_section .slider_nav .dots {
         padding-top: 0;
         height: 39px;
@@ -221,7 +222,7 @@
     }
 
     .main_section:before {
-        height: 470px;
+        height: 479px;
     }
 
     .main_section .main_title {
@@ -296,6 +297,14 @@
         height: 53.5%;;
     }
 
+    .main_section .section_slider {
+        padding-bottom: 37px;
+    }
+
+    .main_section .advantages {
+        margin-top: 0;
+    }
+
     .main_section .section_slider .container {
         margin-top: 145px;
     }
@@ -348,6 +357,7 @@
     }
 
     .main_section .subtitle_wrap {
+        flex-wrap: wrap;
         -webkit-transform: translate(-16px, 0);
         -moz-transform: translate(-16px, 0);
         -ms-transform: translate(-16px, 0);
@@ -386,9 +396,117 @@
 
 }
 
-@media screen and (max-width: 450px) {
-    .header .phone_side .phone a {
-        font-size: 22px;
+@media screen and (max-width: 500px) {
+    .main_section .subtitle {
+        margin-right: 50px;
     }
 
+    .main_section .price_field {
+        margin-top: 10px;
+        -webkit-transform: skew(-16deg) translate(-16px, 0);
+        -moz-transform: skew(-16deg) translate(-16px, 0);
+        -ms-transform: skew(-16deg) translate(-16px, 0);
+        -o-transform: skew(-16deg) translate(-16px, 0);
+        transform: skew(-16deg) translate(-16px, 0);
+    }
+
+    .main_section .section_slider {
+        padding-bottom: 25px;
+    }
+
+    .main_section:before {
+        height: 470px;
+    }
+
+    .main_section .description {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .logo_side {
+        width: 53%;
+    }
+
+    .header .logo {
+        font-size: 25px;
+    }
+
+    .header .header_top .tagline {
+        font-size: 12px;
+    }
+
+    .header .phone_side .phone a {
+        font-size: 20px;
+    }
+
+    .main_menu.active,
+    .main_section:before {
+        top: 112px;
+    }
+
+    .main_section:before {
+        height: 487px;
+    }
+
+    .main_section .main_title {
+        padding: 11px 15px 7px 10px;
+    }
+
+    .main_section .main_title h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .main_section .subtitle {
+        width: 230px;
+        padding-bottom: 10px;
+    }
+
+    .main_section .subtitle h2 {
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    .main_section .title_field:before {
+        left: -25px;
+        height: 97%;
+    }
+
+    .main_section .price_field .price {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .main_section .button_more .btn {
+        width: 180px;
+        padding: 5px 0;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .header .logo {
+        font-size: 23px;
+    }
+
+    .header .header_top .tagline {
+        font-size: 11px;
+    }
+
+    .header .phone_side .phone a {
+        font-size: 18px;
+    }
+
+    .header .phone_side .back_call_btn {
+        width: 125px;
+        font-size: 12px;
+    }
+
+    .main_section:before,
+    .main_menu.active {
+        top: 107px;
+    }
 }
